@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+@font-face {
+    font-family: 'Snake';
+    src: url('font/snake.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-image: gray;
+}
+
+.titulo {
+    font-size: 80px;
+    font-family: Snake;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#snake {
+    border: 5px solid #a03d3d;
+    
+}
+
+flotter {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    padding: 3;
+    margin: 5px 5px 5px 5px;
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+
+.fa-github-square {
+    margin-right: 20px;
+    size: 40px;
+    color:black;
+}
+
+.rodape {
+    color: black;
+}
+
+.rodape:hover {
+    background-color: rgb(192, 188, 188);;
+    color: #a03d3d;
+}
+
+.rodape a {
+    color: inherit;
+}
+
+
+
+
